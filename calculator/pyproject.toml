@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "calculator"
+version = "0.1.0"
+authors = [
+  { name="Dong Wang", email=" dong@toggle.ai " },
+]
+description = "Calculator package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry]
+name = "calculator"
+version = "0.1.0"
+description = "Calculator package"
+authors = ["Dong Wang <dong@toggle.ai>"]
+readme = "README.md"
+
+[tool.poetry.group.dev.dependencies]
+coverage = "7.0.1"
+pre-commit = "3.0.0"
+pytest = "7.2.1"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+utils = {git = "https://github.com/dong-toggle-ai/ds-packages", subdirectory = "utils"}
