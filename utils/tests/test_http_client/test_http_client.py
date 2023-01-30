@@ -4,8 +4,8 @@ import pytest
 import requests
 from requests import HTTPError
 
-from src.http.http_client import HttpClient
-from tests.test_http.conftest import MockResponse
+from src.http_client.http_client import HttpClient
+from tests.test_http_client.conftest import MockResponse
 
 
 @mock.patch.object(requests, "request")
