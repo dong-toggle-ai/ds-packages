@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "utils"
+version = "0.1.0"
+authors = [
+  { name="Dong Wang", email=" dong@toggle.ai " },
+]
+description = "A short description of the project."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+
+#[tool.poetry]
+#name = "utils"
+#version = "0.1.0"
+#description = "A short description of the project."
+#authors = "Dong Wang"
+#readme = "README.md"
+#
+#[tool.poetry.dev-dependencies]
+#coverage = "7.0.1"
+#pre-commit = "3.0.0"
+#pytest = "7.2.1"
+#
+#[tool.poetry.dependencies]
