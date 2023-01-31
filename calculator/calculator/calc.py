@@ -90,14 +90,7 @@ class Calculator():
             return self.deserialize(response)
         except grpc.RpcError as error:
             if isinstance(error, grpc.Call):
-                self.audit(
-                    action="Read.Data",
-                    metadata={
-                        "snake": snake,
-                        "code": str(error.code()),
-                        "details": error.details(),
-                    },
-                )
+                pass
             raise
 
     def grpc_request(self, snake):
