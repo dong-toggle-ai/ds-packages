@@ -11,7 +11,7 @@ from google.protobuf import symbol_database as _symbol_database
 _sym_db = _symbol_database.Default()
 
 
-from src.calculator.v1 import calculator_pb2 as calculator_dot_v1_dot_calculator__pb2
+from calculator.v1 import calculator_pb2 as calculator_dot_v1_dot_calculator__pb2
 from google.protobuf import timestamp_pb2 as google_dot_protobuf_dot_timestamp__pb2
 
 

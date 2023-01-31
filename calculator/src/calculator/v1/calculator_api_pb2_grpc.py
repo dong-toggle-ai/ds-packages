@@ -2,8 +2,8 @@
 """Client and server classes corresponding to protobuf-defined services."""
 import grpc
 
-from src.calculator.v1 import calculator_api_pb2 as calculator_dot_v1_dot_calculator__api__pb2
-from src.calculator.v1 import calculator_pb2 as calculator_dot_v1_dot_calculator__pb2
+from calculator.v1 import calculator_api_pb2 as calculator_dot_v1_dot_calculator__api__pb2
+from calculator.v1 import calculator_pb2 as calculator_dot_v1_dot_calculator__pb2
 
 
 class CalculatorAPIStub(object):
