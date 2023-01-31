@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "calculator"
-version = "0.1.0"
+version = "0.2.0"
 authors = [
   { name="Dong Wang", email=" dong@toggle.ai " },
 ]
@@ -19,7 +19,7 @@ classifiers = [
 
 [tool.poetry]
 name = "calculator"
-version = "0.1.0"
+version = "0.2.0"
 description = "Calculator package"
 authors = ["Dong Wang <dong@toggle.ai>"]
 readme = "README.md"

@@ -8,9 +8,9 @@ from typing import Optional
 import grpc
 from google.protobuf.json_format import MessageToDict
 
-from src.calculator.v1.calculator_api_pb2 import GetSnakeDataRequest
-from src.calculator.v1.calculator_api_pb2 import GetSnakeDataUnaryResponse
-from src.calculator.v1.calculator_api_pb2_grpc import CalculatorAPIStub
+from calculator.v1.calculator_api_pb2 import GetSnakeDataRequest
+from calculator.v1.calculator_api_pb2 import GetSnakeDataUnaryResponse
+from calculator.v1.calculator_api_pb2_grpc import CalculatorAPIStub
 
 from http_client.http_client import HttpClient
 
