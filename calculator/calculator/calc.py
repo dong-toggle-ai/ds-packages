@@ -71,8 +71,8 @@ class Calculator():
         elif self.calculator_source == CalculatorSource.http:
             return self.http_query(snake)
 
-    def http_query(self, snake: str):
-        headers = {"X-Request-Id": str(self.trace_id)}
+    def http_query(self, snake: str, auth: str):
+        headers = {"X-Request-Id": str(self.trace_id), "Authorization": auth}
         query = {"snake_expression": snake}
         try:
             r = HttpClient.request(method="POST", url=self.http_host, json=query, headers=headers, timeout=5)
