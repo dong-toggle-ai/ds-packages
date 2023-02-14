@@ -29,7 +29,7 @@ class HttpClient:
             return response
         except HTTPError as error:
             if error.response.status_code <= 500:
-                logger.debug(f"HTTP 4xx or 500 Error for {url}: {error}")
+                logger.error(f"HTTP 4xx or 500 Error for {url}: {error}")
             else:
                 logger.error(f"HTTP Error for {url}: {error}", exc_info=True)
             raise
