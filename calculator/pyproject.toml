@@ -35,4 +35,4 @@ grpcio-tools = "1.48.2"
 python = "^3.8"
 protobuf = "3.20.3"
 requests = "2.26.0"
-utils = {git = "https://github.com/dong-toggle-ai/ds-packages", subdirectory = "utils"}
+utils = {git = "https://github.com/dong-toggle-ai/ds-packages", tag="3.0", subdirectory = "utils"}
